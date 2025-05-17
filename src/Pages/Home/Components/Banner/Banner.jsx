@@ -28,7 +28,7 @@ const Banner = () => {
                 Get started
               </Button>
             </div>
-            <div className="sm:hidden lg:block ">
+            <div className=" ">
               <Button className="cursor-pointer hover:ml-1 p-[20px_35px] text-[14px] bg-transparent border border-[#FF5E3A] hover:bg-[#FF5E3A] transition-all duration-400 font-bold font-roboto text-[#FFFFFF] ">
                 view our works
                 <IoMdPlayCircle />

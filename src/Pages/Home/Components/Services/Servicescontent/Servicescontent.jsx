@@ -1,5 +1,4 @@
 import React from "react";
-import ServiceVector from "@/assets/images/servicevector.svg";
 
 const Servicescontent = () => {
   return (

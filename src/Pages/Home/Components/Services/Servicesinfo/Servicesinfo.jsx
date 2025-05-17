@@ -1,5 +1,5 @@
-import Container from "@/GlobalComponents/GlobalContainer/Container";
 import React from "react";
+import Container from "@/GlobalComponents/GlobalContainer/Container";
 
 const Servicesinfo = ({ src, title, description, para, logoimg }) => {
   return (

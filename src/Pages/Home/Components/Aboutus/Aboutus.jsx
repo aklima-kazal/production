@@ -1,5 +1,5 @@
-import Container from "@/GlobalComponents/GlobalContainer/Container";
 import React, { useEffect } from "react";
+import Container from "@/GlobalComponents/GlobalContainer/Container";
 import Filmpassion from "@/assets/images/vision2.jpg";
 import { Button } from "@/components/ui/button";
 import { motion, useAnimate, useAnimation } from "motion/react";

@@ -5,7 +5,7 @@ import { IoLogoTwitter } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
-import Images from "@/assets/images/Logo.svg";
+import Images from "../../assets/images/Logo.svg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
 
