@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import film7 from "@/assets/images/film7.jpg";
 import AbouttestiminiCards from "../AbouttestimoniCard/AbouttestiminiCards";
 
 const Abouttestimonial = () => {
@@ -26,7 +25,7 @@ const Abouttestimonial = () => {
           </div>
           <div className="">
             <img
-              src={film7}
+              src="assets/img/film7.jpg"
               className="w-[80%] lg:w-[100%] lg:h-[588px] object-cover overflow-hidden rounded-[5px] shadow-[0px_8px_25px_8px] opacity-70 mx-auto"
               alt="img"
             />

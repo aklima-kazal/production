@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import film7 from "@/assets/images/film7.jpg";
 import Testimonialcontent from "./Testimonialcontent/Testimonialcontent";
 import { TestimonialData } from "./TestimonialData";
 import Testimonialcards from "./Testimonialcards/Testimonialcards";
@@ -80,7 +79,7 @@ const Testimonial = () => {
           </div>
           <div className="mt-8 lg:mt-3 mx-[45px]">
             <img
-              src={film7}
+              src="assets/img/film7.jpg"
               className="w-[100%] h-[100%] lg:w-[100%] lg:h-[588px] object-cover overflow-hidden rounded-[5px] shadow-[0px_8px_25px_8px] opacity-70"
               alt="img"
             />

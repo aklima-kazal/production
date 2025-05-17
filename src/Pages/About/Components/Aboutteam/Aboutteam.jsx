@@ -96,7 +96,7 @@ const Aboutteam = () => {
               >
                 <img
                   className=" mt-[30px] lg:mt-[-60px] rounded-md overflow-hidden object-cover "
-                  src="assets/img/camera1.jpg"
+                  src="assets/img/vision2.jpg"
                   alt="img"
                 />
               </motion.div>
@@ -134,7 +134,7 @@ const Aboutteam = () => {
               <div className="lg:shadow-md lg:shadow-violet-500 rounded-md ">
                 <img
                   className="mt-[30px] lg:mt-[-60px] w-[80%] h-[40%] rounded-md overflow-hidden object-cover mx-auto "
-                  src="assets/img/camera1.jpg"
+                  src="assets/img/vision2.jpg"
                   alt="img"
                 />
               </div>
