@@ -13,7 +13,7 @@ const CommercialBanner = () => {
             </h4>
 
             <div className="mb-[40px]">
-              <p className="font-bold text-8xl font-roboto mt-2.5 mb-5 text-[#FFFFFF] capitalize">
+              <p className="font-bold text-7xl font-roboto mt-2.5 mb-5 text-[#FFFFFF] capitalize">
                 TV Commecial
               </p>
               <span className="text-[#FFFFFF] font-bold font-roboto text-[14px] uppercase">

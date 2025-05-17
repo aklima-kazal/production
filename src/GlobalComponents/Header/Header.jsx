@@ -24,9 +24,9 @@ const Header = () => {
           <div
             onClick={() => setShowSidebar(true)}
             role="button"
-            className="items-center justify-center absolute right-[100px] top-[100px] px-10 sm:block md:hidden"
+            className="items-center justify-center absolute right-[80px] z-50 top-[90px] px-10 sm:block md:hidden"
           >
-            <RiMenuSearchFill className="text-2xl  cursor-pointer w-15 h-15 text-white" />
+            <RiMenuSearchFill className="text-2xl  cursor-pointer w-12 h-12 text-white" />
           </div>
           <div className="px-10 hidden md:block ">
             <ul

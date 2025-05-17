@@ -11,10 +11,10 @@ const Cinematography = () => {
             <img
               src="assets/img/camera1.jpg"
               alt="img"
-              className="h-[100%] w-[100%] hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049]"
+              className="h-[100%] mx-auto lg:mx-0 w-[92%] lg:w-[100%] hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049]"
             />
 
-            <div className=" items-center justify-center p-[30px] md:p-0 lg:ml-[-40px] xl:ml-0">
+            <div className=" text-center lg:text-left p-[30px] md:p-0 lg:ml-[-40px] xl:ml-0">
               <p className="text-[#FF5E3A] font-bold font-roboto text-[14px]">
                 ------ Our Cinematography
               </p>

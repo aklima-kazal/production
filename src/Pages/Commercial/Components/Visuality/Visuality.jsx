@@ -10,7 +10,7 @@ const Visuality = () => {
             <img
               src="assets/img/dance2.jpg"
               alt="img"
-              className="w-[500px] h-[500px] overflow-hidden object-cover rounded-[5px] shadow-[0px_8px_20px_8px] "
+              className="lg:w-[500px] w-[460px] h-[500px] overflow-hidden object-cover rounded-[5px] shadow-[0px_8px_20px_8px] "
             />
           </div>
           <div className="mt-[30px] lg:mt-0 text-center lg:text-left ">

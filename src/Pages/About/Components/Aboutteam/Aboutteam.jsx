@@ -56,16 +56,16 @@ const Aboutteam = () => {
               {AboutteamData.map((item, i) => (
                 <div
                   key={i}
-                  className="text-center lg:text-left justify-center lg:items-left "
+                  className="text-center lg:text-left justify-center lg:items-left w-[80%] mx-auto lg:mx-0"
                 >
                   <p className="text-[#FF5E3A] font-bold font-roboto text-[14px] text-center lg:text-left">
                     {item.title}
                   </p>
 
-                  <h4 className="font-bold text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
+                  <h4 className="font-bold text-5xl lg:text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
                     {item.heading}
                   </h4>
-                  <h4 className="text-[#82869A] font-bold font-roboto text-2xl w-[80%]">
+                  <h4 className="text-[#82869A] font-bold font-roboto text-[18px] lg:text-2xl w-[80%]">
                     {item.content}
                   </h4>
                   <p className="text-[#82869A] font-normal font-inter text-[16px] mt-6 w-[80%]">
@@ -107,24 +107,24 @@ const Aboutteam = () => {
             <div className="mt-[80px] ">
               {AboutteamData.map((item, i) => (
                 <div
-                  className="text-center lg:text-left items-center justify-center lg:items-left"
+                  className="text-center lg:text-left items-center justify-center lg:items-left w-[80%] mx-auto lg:mx-0"
                   key={i}
                 >
                   <p className="text-[#FF5E3A] font-bold font-roboto text-[14px] text-center lg:text-left">
                     {item.title}
                   </p>
 
-                  <h4 className="font-bold text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
+                  <h4 className="font-bold text-5xl lg:text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
                     {item.heading}
                   </h4>
-                  <h4 className="text-[#82869A] font-bold font-roboto text-2xl w-[98%]">
+                  <h4 className="text-[#82869A] font-bold text-[18px] lg:text-2xl font-roboto text-2xl w-[98%]">
                     {item.content}
                   </h4>
-                  <p className="text-[#82869A] font-normal font-inter text-[16px] mt-6 md:w-[96%] lg:w-[80%]">
+                  <p className="text-[#82869A] font-normal font-inter text-[16px] mt-6 w-[98%] md:w-[96%] lg:w-[80%]">
                     {item.description1}
                   </p>
 
-                  <p className="text-[#82869A] font-normal font-inter text-[16px] mt-6 md:w-[96%] lg:w-[80%]">
+                  <p className="text-[#82869A] font-normal font-inter text-[16px] lg:text-[16px] mt-6 w-[98%] md:w-[96%] lg:w-[80%]">
                     {item.description3}
                   </p>
                 </div>

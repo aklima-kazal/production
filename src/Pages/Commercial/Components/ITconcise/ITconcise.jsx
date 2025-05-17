@@ -29,7 +29,7 @@ const ITconcise = () => {
             <img
               src="assets/img/dance.jpg"
               alt="img"
-              className="w-[500px] h-[500px] overflow-hidden object-cover rounded-[5px] shadow-[0px_8px_20px_8px] mx-auto lg:mx-0"
+              className="w-[460px] lg:w-[500px] h-[500px] overflow-hidden object-cover rounded-[5px] shadow-[0px_8px_20px_8px] mx-auto lg:mx-0"
             />
           </div>
         </div>

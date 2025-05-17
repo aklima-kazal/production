@@ -22,7 +22,7 @@ const Works = () => {
         <Container>
           <div className="mt-[50px] ">
             <Workscontent />
-            <div className="grid grid-cols-2 gap-x-[20px] md:gap-x-[50px] gap-y-[50px]  mt-10 ">
+            <div className="grid lg:grid-cols-2 gap-x-[20px] md:gap-x-[50px] gap-y-[50px]  mt-10 ">
               {WorksData.map((item, id) => (
                 <Workinfo
                   src={item.src}

@@ -18,7 +18,7 @@ const SideBar = ({ setShowSidebar, showSidebar }) => {
 
   return (
     <>
-      <div className="w-[240px] p-4 bg-slate-50 shadow-[0px_2px_5px_0px] shadow-gray-800 h-[70vh] leading-0 absolute z-9999 top-[100px] md:hidden block left-[34%]">
+      <div className="p-1 w-[220px]  bg-slate-50 shadow-[0px_2px_5px_0px] shadow-gray-800 h-[70vh] leading-0 absolute z-9999 top-[100px] md:hidden block left-[38%]">
         <div
           className="flex justify-end "
           role="button"
@@ -30,7 +30,7 @@ const SideBar = ({ setShowSidebar, showSidebar }) => {
           <div className="">
             <ul
               ref={clickOutside}
-              className="flex flex-col space-y-[60px] absolute z-50 mt-[50px] ml-[50px] "
+              className="flex flex-col space-y-[60px] absolute z-50 mt-[30px] ml-[30px] "
             >
               {MenuData.map((item) => {
                 return (
@@ -43,7 +43,7 @@ const SideBar = ({ setShowSidebar, showSidebar }) => {
                     {item.list && (
                       <GoChevronDown
                         role="button"
-                        className="text-2xl ml-2 items-center cursor-pointer r"
+                        className="text-2xl ml-2 items-center cursor-pointer "
                         onClick={handleDropdownShow}
                       />
                     )}

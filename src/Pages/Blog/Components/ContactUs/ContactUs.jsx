@@ -47,7 +47,7 @@ const ContactUs = () => {
     <>
       <Container>
         <div className=" mt-[100px] mb-[100px] grid lg:grid-cols-[55%_46%]">
-          <div>
+          <div className="text-center lg:text-left">
             <div className="text-center lg:text-left">
               <span className="text-[#FF5E3A] font-bold font-roboto text-[14px] uppercase">
                 ------ contact
@@ -80,11 +80,11 @@ const ContactUs = () => {
               <img
                 src="assets/img/camerab.jpg"
                 alt="img"
-                className="w-[520px] h-[300px] md:mx-auto lg:mx-0 md:h-[280px] md:w-[600px]  rounded-[5px] "
+                className="w-[390px] h-[300px] mx-auto lg:mx-0 md:h-[280px] md:w-[600px]  rounded-[5px] "
               />
             </div>
           </div>
-          <div className="mx-auto lg:mx-0 w-[530px] lg:w-full">
+          <div className="mx-auto lg:mx-0 w-[70vw] lg:w-full">
             <form
               onSubmit={handleSubmit}
               className="mt-[50px] p-[30px] bg-white rounded-[5px] shadow-[0px_8px_25px_8px] "

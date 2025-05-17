@@ -6,7 +6,7 @@ export const Workinfo = ({ src, title, description, para }) => {
     <>
       <Container>
         <div className="relative items-center justify-center ">
-          <div className="p-[20px] overflow-hidden object-center opacity-40 hover:opacity-10 hover:scale-105 transition-all duration-900 cursor-all cursor-pointer shadow-md shadow-cyan-700 bg-cyan-950">
+          <div className="p-[20px] overflow-hidden object-center opacity-40 hover:opacity-10 lg:hover:scale-105 transition-all duration-900 cursor-all cursor-pointer shadow-md shadow-cyan-700 bg-cyan-950">
             <img className="w-[550px] h-[300px] " src={src} alt="yes" />
           </div>
           <div className="absolute bottom-[20px]  left-[30px] ">
