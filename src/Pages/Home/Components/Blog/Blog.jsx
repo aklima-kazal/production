@@ -28,10 +28,10 @@ const Blog = () => {
                     <img
                       src={item.src}
                       alt={item.alt}
-                      className="mx-auto h-[600px] w-[400px] lg:h-[300px] lg:w-[350px] shadow-[0px_8px_20px_8px] object-cover overflow-hidden mb-8 lg:mb-5 rounded-[5px]"
+                      className="mx-auto h-[600px] w-[60vw] lg:h-[300px] lg:w-[350px] shadow-[0px_8px_20px_8px] object-cover overflow-hidden mb-8 lg:mb-5 rounded-[5px]"
                     />
                   </div>
-                  <div className="shadow-[0px_8px_20px_8px] rounded-[5px] p-[30px] lg:p-[20px] w-[410px] mx-[80px] md:mx-auto lg:w-full text-center lg:text-left">
+                  <div className="shadow-[0px_8px_20px_8px] rounded-[5px] p-[30px] lg:p-[20px] w-[60vw]  mx-auto lg:w-full text-center lg:text-left">
                     <h2 className="font-bold text-[24px] text-[#FFFFFF] font-roboto leading-[30px] w-[90%] lg:w-[101%] mx-auto">
                       {item.heading}
                     </h2>
