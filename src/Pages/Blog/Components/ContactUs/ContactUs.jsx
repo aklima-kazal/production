@@ -71,7 +71,7 @@ const ContactUs = () => {
               <p className="text-[#82869A] font-normal mb-[10px] font-inter text-[16px]">
                 768 Market Street San Francisco, CA 64015, United States
               </p>
-              <div className="flex mx-[90px] md:mx-[185px] lg:mx-0 gap-x-[50px] mb-[20px] text-[#82869A] font-normal font-inter text-[20px] ">
+              <div className="lg:flex mx-[90px] md:mx-[185px] lg:mx-0 gap-x-[50px] mb-[20px] text-[#82869A] font-normal font-inter text-[20px] ">
                 <p>info@filmina.com</p>
                 <p>(+021) 345 678 910</p>
               </div>
@@ -84,7 +84,7 @@ const ContactUs = () => {
               />
             </div>
           </div>
-          <div className="mx-auto lg:mx-0 w-[70vw] lg:w-full">
+          <div className="mx-auto lg:mx-0 w-[80vw] lg:w-full">
             <form
               onSubmit={handleSubmit}
               className="mt-[50px] p-[30px] bg-white rounded-[5px] shadow-[0px_8px_25px_8px] "
