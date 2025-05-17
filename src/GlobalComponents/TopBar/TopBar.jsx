@@ -25,12 +25,12 @@ const TopBar = () => {
             <div className="">
               <img
                 src="assets/img/Logo.svg"
-                className="xs:w-[72px] xs:h-[60px] md:max-w-[80px] lg:min-w-[180px] lg:h-[80px] "
+                className="xs:w-[68px] xs:h-[60px] md:max-w-[80px] lg:min-w-[180px] lg:h-[80px] "
                 alt="image"
               />
             </div>
 
-            <div className="flex space-x-[60px] xs:space-x-[8px] md:space-x-[30px] lg:space-x-[60px] items-center justify-center ">
+            <div className="flex space-x-[60px] xs:space-x-[9px] md:space-x-[30px] lg:space-x-[60px] items-center justify-center ">
               <div className="flex items-center gap-x-[10px]">
                 <BsFillTelephoneFill className="" />
                 (+021) 345 678 910
