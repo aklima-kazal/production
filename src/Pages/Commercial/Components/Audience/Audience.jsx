@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-import Film5 from "@/assets/images/film5.jpg";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import { Film } from "lucide-react";
 import {
   Drawer,
   DrawerClose,
@@ -63,7 +61,7 @@ const Audience = () => {
                 className="items-center justify-center"
               >
                 <img
-                  src={Film5}
+                  src="assets/img/film5.jpg"
                   className="w-[1100px] opacity-80 mx-auto object-cover overflow-hidden rounded-[5px]  h-[580px] cursor-pointer shadow-[0px_8px_20px_8px] inset-shadow-xl inset-shadow-indigo-500 ..."
                   alt="img"
                 />

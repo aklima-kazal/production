@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import Logo from "@/assets/images/Logo.svg";
 import { IoLogoTwitter } from "react-icons/io";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -12,7 +11,7 @@ const FooterList = () => {
       <Container>
         <div className="grid grid-cols-2 lg:grid-cols-[30%_20%_12%_10%_10%] mb-[30px] lg:border-b lg:border-b-[rgba(152,154,169,0.6)] lg:gap-x-[46px] justify-between p-[30px] ">
           <div className="mb-[54px] ">
-            <img src={Logo} alt="img" className="mb-[30px]" />
+            <img src="assets/img/Logo.svg" alt="img" className="mb-[30px]" />
             <p className="text-[#82869A] font-normal font-inter text-[16px] w-[85%] mb-[54px]">
               Proin et magna blandit arcu pellentes sceleri sit amet a sapien.
               Aenean purus nunc cursus in ante in, vehicula facilisis{" "}

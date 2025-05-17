@@ -52,7 +52,7 @@ const PortfolioWork = () => {
                       <img
                         className="w-[550px] h-[300px] "
                         src={item.src}
-                        alt="yes"
+                        alt="img"
                       />
                     </div>
                     <div className="absolute bottom-[20px]  left-[30px] ">

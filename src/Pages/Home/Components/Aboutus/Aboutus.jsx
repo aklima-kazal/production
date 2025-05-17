@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import Filmpassion from "@/assets/images/vision2.jpg";
 import { Button } from "@/components/ui/button";
 import { motion, useAnimate, useAnimation } from "motion/react";
 import { useMediaQuery } from "react-responsive";
@@ -95,7 +94,7 @@ const Aboutus = () => {
                 >
                   <img
                     className="mt-[40px] lg:mt-[-90px] rounded-md w-full h-full object-cover overflow-hidden"
-                    src={Filmpassion}
+                    src="assets/img/vision2.jpg"
                     alt="img"
                   />
                 </motion.div>

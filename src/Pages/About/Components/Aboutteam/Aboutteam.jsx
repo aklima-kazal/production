@@ -2,7 +2,6 @@ import React from "react";
 import { AboutteamData } from "./AboutteamData";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
 import { useEffect } from "react";
-import Filmpassion from "@/assets/images/vision2.jpg";
 import { motion, useAnimate, useAnimation } from "motion/react";
 import { useMediaQuery } from "react-responsive";
 
@@ -97,7 +96,7 @@ const Aboutteam = () => {
               >
                 <img
                   className=" mt-[30px] lg:mt-[-60px] rounded-md overflow-hidden object-cover "
-                  src={Filmpassion}
+                  src="assets/img/camera1.jpg"
                   alt="img"
                 />
               </motion.div>
@@ -135,7 +134,7 @@ const Aboutteam = () => {
               <div className="lg:shadow-md lg:shadow-violet-500 rounded-md ">
                 <img
                   className="mt-[30px] lg:mt-[-60px] w-[80%] h-[40%] rounded-md overflow-hidden object-cover mx-auto "
-                  src={Filmpassion}
+                  src="assets/img/camera1.jpg"
                   alt="img"
                 />
               </div>

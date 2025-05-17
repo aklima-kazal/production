@@ -5,7 +5,6 @@ import { IoLogoTwitter } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
-import Images from "@/assets/images/Logo.svg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
 
@@ -25,7 +24,7 @@ const TopBar = () => {
             </div>
             <div className="">
               <img
-                src={Images}
+                src="assets/img/Logo.svg"
                 className="xs:w-[72px] xs:h-[60px] md:max-w-[80px] lg:min-w-[180px] lg:h-[80px] "
                 alt="image"
               />

@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import Dance from "@/assets/images/dance.jpg";
 import Visuality from "../Visuality/Visuality";
 
 const ITconcise = () => {
@@ -28,7 +27,7 @@ const ITconcise = () => {
           </div>
           <div className="order-first lg:order-last">
             <img
-              src={Dance}
+              src="assets/img/dance.jpg"
               alt="img"
               className="w-[500px] h-[500px] overflow-hidden object-cover rounded-[5px] shadow-[0px_8px_20px_8px] mx-auto lg:mx-0"
             />

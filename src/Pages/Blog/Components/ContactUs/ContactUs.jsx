@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
 import { Button } from "@/components/ui/button";
-import Camerab from "@/assets/images/camerab.jpg";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -79,7 +78,7 @@ const ContactUs = () => {
             </div>
             <div className="object-cover overflow-hidden">
               <img
-                src={Camerab}
+                src="assets/img/camerab.jpg"
                 alt="img"
                 className="w-[520px] h-[300px] md:mx-auto lg:mx-0 md:h-[280px] md:w-[600px]  rounded-[5px] "
               />

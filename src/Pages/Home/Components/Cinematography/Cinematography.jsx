@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import Vision from "@/assets/images/vision1.jpg";
 import { Button } from "@/components/ui/button";
 
 const Cinematography = () => {
@@ -10,7 +9,7 @@ const Cinematography = () => {
         <Container>
           <div className="grid lg:grid-cols-2 w-[100%] hover:rounded-3xl shadow-[0px_8px_25px_8px] gap-x-[50px] shadow-[#373049] mt-7">
             <img
-              src={Vision}
+              src="assets/img/camera1.jpg"
               alt="img"
               className="h-[100%] w-[100%] hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049]"
             />

@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import Dance2 from "@/assets/images/dance2.jpg";
 
 const Visuality = () => {
   return (
@@ -9,7 +8,7 @@ const Visuality = () => {
         <div className="grid lg:grid-cols-2 gap-x-[50px] ">
           <div className=" mx-auto lg:mx-0 ">
             <img
-              src={Dance2}
+              src="assets/img/dance2.jpg"
               alt="img"
               className="w-[500px] h-[500px] overflow-hidden object-cover rounded-[5px] shadow-[0px_8px_20px_8px] "
             />

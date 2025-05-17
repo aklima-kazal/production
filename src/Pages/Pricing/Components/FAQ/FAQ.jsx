@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import Studios from "@/assets/images/studios.jpg";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { FAQdata2, FAQdata1, FAQdata3, FAQdata5, FAQdata4 } from "./FAQdata";
 
@@ -197,7 +196,7 @@ const FAQ = () => {
 
           <div className="order-first lg:order-last ">
             <img
-              src={Studios}
+              src="assets/img/studios.jpg"
               alt="img"
               className="w-[78%] h-[530px] object-cover rounded-[5px] shadow-[0px_8px_20px_8px] overflow-hidden mx-auto "
             />
