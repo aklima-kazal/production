@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/GlobalComponents/GlobalContainer/Container";
-import film7 from "../../../../assets/images/film7.jpg";
+import film7 from "@/assets/images/film7.jpg";
 import AbouttestiminiCards from "../AbouttestimoniCard/AbouttestiminiCards";
 
 const Abouttestimonial = () => {
