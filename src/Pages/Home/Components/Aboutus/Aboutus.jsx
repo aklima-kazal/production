@@ -130,7 +130,7 @@ const Aboutus = () => {
                 <div className="shadow-md shadow-violet-500 rounded-md ">
                   <img
                     className="mt-[40px] lg:mt-[-90px] rounded-md w-full h-full overflow-hidden object-cover"
-                    src={Filmpassion}
+                    src="assets/img/vision2.jpg"
                     alt="img"
                   />
                 </div>
