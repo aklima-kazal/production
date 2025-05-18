@@ -12,9 +12,16 @@ const TopBar = () => {
   return (
     <>
       <Container>
-        <div className="text-[#FFFFFF] relative h-[40px] mb-[40px] lg:mb-[50px] top-5 items-center justify-center ">
-          <div className="lg:border-b lg:border-b-[rgba(152,154,169,0.6)] absolute z-50 sm:w-[30%]  md:w-full xs:p-2 md:p-4 lg:p-0  flex items-center lg:justify-center md:justify-around  xs:gap-x-[30px]  lg:gap-x-[105px] ">
-            <div className="flex items-center justify-center  xs:space-x-[6px] md:space-x-[30px]">
+        <div className="block md:hidden ">
+          <img
+            src="assets/img/Logo.svg"
+            className="mx-auto xs:w-[80px] xs:h-[60px] md:max-w-[80px] lg:min-w-[180px] lg:h-[80px] "
+            alt="image"
+          />
+        </div>
+        <div className="text-[#FFFFFF] relative h-[40px] mb-[40px] lg:mb-[50px] top-[-20px] md:top-[40px] items-center justify-center mx-[30px] md:mx-0">
+          <div className="lg:border-b lg:border-b-[rgba(152,154,169,0.6)] absolute z-50 w-[100%]  md:w-full xs:p-2 md:p-4 lg:p-0  flex items-around lg:justify-center md:justify-around  xs:gap-x-[30px]  lg:gap-x-[105px] ">
+            <div className="flex items-center justify-center  xs:space-x-[3px] md:space-x-[30px]">
               <FaFacebookF />
               <IoLogoTwitter />
               <FaInstagram />
@@ -22,7 +29,7 @@ const TopBar = () => {
 
               <IoLogoLinkedin />
             </div>
-            <div className="">
+            <div className="hidden md:block">
               <img
                 src="assets/img/Logo.svg"
                 className="xs:w-[68px] xs:h-[60px] md:max-w-[80px] lg:min-w-[180px] lg:h-[80px] "
@@ -30,7 +37,7 @@ const TopBar = () => {
               />
             </div>
 
-            <div className="flex space-x-[60px] xs:space-x-[9px] md:space-x-[30px] lg:space-x-[60px] items-center justify-center ">
+            <div className="flex space-x-[60px] xs:space-x-[30px]  md:space-x-[30px] lg:space-x-[60px] items-center justify-center ">
               <div className="flex items-center gap-x-[10px]">
                 <BsFillTelephoneFill className="" />
                 (+021) 345 678 910

@@ -9,8 +9,15 @@ const FooterList = () => {
   return (
     <>
       <Container>
-        <div className="grid grid-cols-2 lg:grid-cols-[30%_20%_12%_10%_10%] mb-[30px] lg:border-b lg:border-b-[rgba(152,154,169,0.6)] lg:gap-x-[46px] justify-between p-[30px] ">
-          <div className="mb-[54px] ">
+        <div className="mb-[54px] block lg:hidden mx-[30px]">
+          <img src="assets/img/Logo.svg" alt="img" className="mb-[30px]" />
+          <p className="text-[#82869A] font-normal font-inter text-[16px] w-[85%] mb-[54px]">
+            Proin et magna blandit arcu pellentes sceleri sit amet a sapien.
+            Aenean purus nunc cursus in ante in, vehicula facilisis{" "}
+          </p>
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-[30%_20%_12%_10%_10%] mb-[30px] lg:border-b lg:border-b-[rgba(152,154,169,0.6)] gap-x-[50px] lg:gap-x-[46px] justify-between p-[30px] ">
+          <div className="mb-[54px] hidden lg:block">
             <img src="assets/img/Logo.svg" alt="img" className="mb-[30px]" />
             <p className="text-[#82869A] font-normal font-inter text-[16px] w-[85%] mb-[54px]">
               Proin et magna blandit arcu pellentes sceleri sit amet a sapien.

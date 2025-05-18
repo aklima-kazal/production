@@ -24,20 +24,17 @@ const Header = () => {
           <div
             onClick={() => setShowSidebar(true)}
             role="button"
-            className="items-center justify-center absolute right-[45px] z-50 top-[90px] px-10 sm:block md:hidden"
+            className="items-center justify-center absolute right-[50px] z-50 top-[98px] px-10 sm:block md:hidden"
           >
             <RiMenuSearchFill className="text-2xl  cursor-pointer w-12 h-12 text-white" />
           </div>
-          <div className="px-10 hidden md:block ">
-            <ul
-              className="flex space-x-[60px] relative z-50"
-              ref={clickOutside}
-            >
+          <div ref={clickOutside} className="px-10 hidden md:block ">
+            <ul className="flex space-x-[60px] relative z-50">
               {MenuData.map((item) => {
                 return (
                   <li
                     key={item.id}
-                    className="font-bold flex font-roboto hover:text-[#FF5E3A] text-[14px] text-[#FFFFFF] items-center "
+                    className="font-bold flex font-roboto hover:text-[#FF5E3A] text-[14px] text-[#FFFFFF] items-center cursor-pointer"
                   >
                     <Link to={item.path}>{item.title}</Link>
 

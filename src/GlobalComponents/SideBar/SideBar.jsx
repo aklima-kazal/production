@@ -4,6 +4,7 @@ import MenuData from "../Header/MenuData";
 import { Link } from "react-router";
 import { GoChevronDown } from "react-icons/go";
 import useClickOutside from "../Header/DropDown";
+import { motion } from "framer-motion";
 
 const SideBar = ({ setShowSidebar, showSidebar }) => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -18,7 +19,10 @@ const SideBar = ({ setShowSidebar, showSidebar }) => {
 
   return (
     <>
-      <div className="p-1 w-[220px]  bg-slate-50 shadow-[0px_2px_5px_0px] shadow-gray-800 h-[70vh] leading-0 absolute z-9999 top-[100px] md:hidden block left-[38%]">
+      <motion.div
+        animate={{ x: [70, 20, 10] }}
+        className="p-1 w-[200px] text-center bg-slate-100 shadow-[0px_2px_5px_0px] shadow-gray-800 h-[70vh] leading-0 absolute z-9999 top-[100px] md:hidden block left-[0px]"
+      >
         <div
           className="flex justify-end "
           role="button"
@@ -28,15 +32,12 @@ const SideBar = ({ setShowSidebar, showSidebar }) => {
         </div>
         <div>
           <div className="">
-            <ul
-              ref={clickOutside}
-              className="flex flex-col space-y-[60px] absolute z-50 mt-[30px] ml-[30px] "
-            >
+            <ul className="flex flex-col space-y-[60px] absolute z-50 mt-[30px] ml-[30px] ">
               {MenuData.map((item) => {
                 return (
                   <li
                     key={item.id}
-                    className="font-bold flex font-roboto hover:text-[#FF5E3A] text-[14px] text-black items-center "
+                    className=" font-bold flex font-roboto hover:text-[#FF5E3A] text-[14px] text-black items-center "
                   >
                     <Link to={item.path}>{item.title}</Link>
 
@@ -75,7 +76,7 @@ const SideBar = ({ setShowSidebar, showSidebar }) => {
             </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
