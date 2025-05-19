@@ -11,21 +11,21 @@ const Aboutcinemato = () => {
             <img
               src="assets/img/camera1.jpg"
               alt="img"
-              className=" hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049] h-[100%] mx-auto lg:mx-0 w-[92%] lg:w-[100%]"
+              className="h-[100%] mx-auto lg:mx-0 w-[92%] lg:w-[100%] hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049]"
             />
 
-            <div className="text-center lg:text-left items-center justify-center ">
+            <div className=" text-center lg:text-left p-[30px] md:p-0 lg:ml-[-40px] xl:ml-0">
               <p className="text-[#FF5E3A] font-bold font-roboto text-[14px]">
                 ------ Our Cinematography
               </p>
-              <h4 className="font-bold text-[72px] text-[#FFFFFF] font-roboto mt-2.5 leading-[72px]">
+              <h4 className="font-bold text-5xl md:text-[72px] text-[#FFFFFF] font-roboto mt-2.5 leading-[65px] ">
                 Cinematography and Film Production
               </h4>
               <h3 className="font-roboto text-[24px] font-bold mt-[30px] mb-[30px] text-[#82869A]">
                 Our video production company is here to help you create stunning
                 images from start to finish.
               </h3>
-              <p className="text-[#82869A] font-normal mb-[30px] font-inter text-[16px]">
+              <p className="text-[#82869A] font-normal mb-[30px] font-inter text-[16px] ]">
                 Proin et magna blandit arcu pellentesque scelerisque sit amet a
                 sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis
                 dui. Integer consequat consectetur est id blandit. Proin et
