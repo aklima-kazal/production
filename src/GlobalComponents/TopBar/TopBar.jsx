@@ -19,8 +19,8 @@ const TopBar = () => {
             alt="image"
           />
         </div>
-        <div className="text-[#FFFFFF] relative h-[40px] mb-[40px] lg:mb-[50px] top-[-20px] md:top-[40px] items-center justify-center p-1 md:p-0">
-          <div className="lg:border-b lg:border-b-[rgba(152,154,169,0.6)] absolute z-50 md:w-full w-[100%] md:p-4 lg:p-0 flex items-center lg:justify-center md:justify-around xs:gap-x-[30px]  lg:gap-x-[105px] ">
+        <div className="text-[#FFFFFF] relative h-[40px] mb-[40px] lg:mb-[50px] top-[-20px] md:top-[40px] items-center justify-center p-4 md:p-0">
+          <div className="lg:border-b lg:border-b-[rgba(152,154,169,0.6)] absolute z-50 md:w-full w-[120%] md:p-4 lg:p-0 flex items-center lg:justify-center md:justify-around xs:gap-x-[10px]  lg:gap-x-[105px] ">
             <div className="flex items-center justify-center  xs:space-x-[3px] md:space-x-[20px]">
               <FaFacebookF />
               <IoLogoTwitter />
@@ -38,12 +38,12 @@ const TopBar = () => {
             </div>
 
             <div className="flex space-x-[30px] lg:space-x-[60px] items-center justify-center ">
-              <div className="flex items-center gap-x-[10px]">
+              <div className="flex items-center gap-x-[10px] text-[12px]">
                 <BsFillTelephoneFill className="" />
                 (+021) 345 678 910
               </div>
 
-              <div className="flex items-center gap-x-[10px]">
+              <div className="flex items-center gap-x-[10px] text-[12px]">
                 <IoMail className=" lg:w-[30px] lg:h-[20px]" />
                 info@filmina.com
               </div>
