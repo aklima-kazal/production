@@ -20,7 +20,7 @@ const TopBar = () => {
           />
         </div>
         <div className="text-[#FFFFFF] relative h-[40px] mb-[40px] lg:mb-[50px] top-[-20px] md:top-[40px] items-center justify-center p-2 md:p-0">
-          <div className="lg:border-b lg:border-b-[rgba(152,154,169,0.6)] absolute z-50 md:w-full w-[105%] md:p-4 lg:p-0 flex items-center lg:justify-center md:justify-around xs:gap-x-[20px]  lg:gap-x-[105px] ">
+          <div className="lg:border-b lg:border-b-[rgba(152,154,169,0.6)] absolute z-50 md:w-full w-[92%] md:p-4 lg:p-0 flex items-center lg:justify-center md:justify-around xs:gap-x-[20px]  lg:gap-x-[105px] ">
             <div className="flex items-center justify-center  xs:space-x-[4px] md:space-x-[20px]">
               <FaFacebookF className="lg:w-[15px] lg:h-[20px] md:w-[12px] md:h-[18px] sm:w-[10px] sm:h-[16px] " />
               <IoLogoTwitter className="lg:w-[20px] lg:h-[25px] md:w-[18px] md:h-[20px] sm:w-[10px] sm:h-[16px]" />
