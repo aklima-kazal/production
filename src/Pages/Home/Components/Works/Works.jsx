@@ -1,16 +1,5 @@
-import Container from "@/GlobalComponents/GlobalContainer/Container";
 import React from "react";
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
-import { FaDoorOpen } from "react-icons/fa";
+import Container from "@/GlobalComponents/GlobalContainer/Container";
 import { Workinfo } from "./Workinfo/Workinfo";
 import { WorksData } from "./WorksData";
 import Workscontent from "./Workcontent/workscontent";

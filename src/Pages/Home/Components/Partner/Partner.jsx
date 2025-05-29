@@ -15,7 +15,7 @@ const Partner = () => {
               Trusted by the Best Brands
             </h5>
           </div>
-          <div className="space-x-[30px] lg:space-x-[100px] flex items-center justify-center mb-[50px] ">
+          <div className="space-x-[20px] lg:space-x-[100px] flex items-center justify-center mb-[50px] ">
             {partnersimg.map((item, i) => (
               <div
                 className="hover:scale-90 transition-all duration-500 cursor-pointer"

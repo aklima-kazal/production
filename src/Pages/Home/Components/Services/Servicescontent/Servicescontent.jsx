@@ -8,10 +8,10 @@ const Servicescontent = () => {
           <p className="text-[#FF5E3A] font-bold font-roboto text-[14px]">
             ----- services
           </p>
-          <h4 className="font-bold text-[72px] text-[#FFFFFF] font-roboto">
+          <h4 className="font-bold text-[45px] md:text-[72px] text-[#FFFFFF] font-roboto">
             Our Services
           </h4>
-          <span className="text-[#82869A] font-normal font-inter text-[16px]">
+          <span className="text-[#82869A] font-normal font-inter text-[14px] sm:text-[16px] w-[96%] md">
             Proin et magna blandit arcu pellentesque scelerisque sit amet a
             sapien aenean
           </span>

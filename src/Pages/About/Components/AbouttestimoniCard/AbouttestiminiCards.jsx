@@ -56,14 +56,14 @@ const AbouttestiminiCards = () => {
   return (
     <>
       <Container>
-        <div className="w-[70%] md:w-[83%] mx-[20px] lg:mx-0 z-50 mt-[-380px] mb-[100px] ">
+        <div className=" w-[80vw] sm:w-[80%]  md:w-[83%] mx-[20px] lg:mx-0 z-50 mt-[-200px] sm:mt-[-330px] md:mt-[-380px] mb-[100px] ">
           <Slider {...settings}>
             {AboutcardsData?.map((item, index) => {
               return (
                 <>
                   <div
                     key={index}
-                    className="border border-[#FF5E3A] bg-[#F9F9F9] p-[30px]  rounded-[5px] h-[350px] shadow-[0px_8px_25px_8px] "
+                    className="border border-[#FF5E3A] bg-[#F9F9F9] p-[30px]  rounded-[5px]  md:h-[350px] shadow-[0px_8px_25px_8px] "
                   >
                     <div className="flex justify-between ">
                       <div className="flex gap-x-1">
@@ -74,10 +74,10 @@ const AbouttestiminiCards = () => {
                     </div>
                     <div className="">
                       <div className="">
-                        <h4 className="mt-5 mb-5 font-bold font-Roboto Condensed text-4xl text-[#11121E] w-[96%]">
+                        <h4 className="mt-5 mb-5 font-bold font-Roboto Condensed text-[20px] md:text-4xl text-[#11121E] w-[120%] md:w-[96%]">
                           {item.title}
                         </h4>
-                        <p className="text-[#82869A] font-normal w-[90%] font-inter text-[16px] mr-[30px] mb-5">
+                        <p className="text-[#82869A] font-normal w-[110%] md:w-[90%] font-inter text:[14px] md:text-[16px] mr-[30px] mb-5">
                           {item.description}
                         </p>
                       </div>

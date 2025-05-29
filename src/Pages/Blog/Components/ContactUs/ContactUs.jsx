@@ -57,7 +57,7 @@ const ContactUs = () => {
               </h4>
 
               <div className=" items-center mb-[30px]">
-                <span className="text-[#82869A] font-bold font-roboto text-[24px] mr-4">
+                <span className="text-[#82869A] font-bold font-roboto text-[20px] md:text-[24px] mr-4">
                   For more information, contact us at
                 </span>
                 <span className="text-[#FFFFFF] font-bold font-roboto text-[24px] ">
@@ -68,10 +68,10 @@ const ContactUs = () => {
                 Keep in touch
               </h4>
 
-              <p className="text-[#82869A] font-normal mb-[10px] font-inter text-[16px]">
+              <p className="text-[#82869A] font-normal mb-[10px] font-inter text-[14px] md:text-[16px]">
                 768 Market Street San Francisco, CA 64015, United States
               </p>
-              <div className="lg:flex mx-[90px] md:mx-[185px] lg:mx-0 gap-x-[50px] mb-[20px] text-[#82869A] font-normal font-inter text-[20px] ">
+              <div className="lg:flex mx-[90px] md:mx-[185px] lg:mx-0 gap-x-[50px] mb-[20px] text-[#82869A] font-normal font-inter text-[14px] md:text-[20px] ">
                 <p>info@filmina.com</p>
                 <p>(+021) 345 678 910</p>
               </div>

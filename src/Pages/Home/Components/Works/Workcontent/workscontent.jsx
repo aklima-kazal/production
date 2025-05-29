@@ -4,7 +4,7 @@ import React from "react";
 const Workscontent = () => {
   return (
     <>
-      <div className="flex items-center justify-between">
+      <div className="md:flex items-center justify-between">
         <div>
           <p className="text-[#FF5E3A] font-bold font-roboto text-[14px]">
             ---- works
@@ -17,7 +17,7 @@ const Workscontent = () => {
             sapien aenean
           </p>
         </div>
-        <div>
+        <div className="mt-5 md:mt-0">
           <Button className="cursor-pointer p-[20px_35px] text-[14px] bg-transparent border border-[#FF5E3A] hover:bg-[#FF5E3A] transition-all duration-400 font-bold font-roboto text-[#FFFFFF]">
             View all works
           </Button>

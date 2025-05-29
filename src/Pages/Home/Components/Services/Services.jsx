@@ -35,14 +35,26 @@ const Services = () => {
           slidesToScroll: 2,
           initialSlide: 1,
           arrows: false,
-          rows: 3,
+          rows: 2,
+          dots: true,
         },
       },
       {
-        breakpoint: 575,
+        breakpoint: 576,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          initialSlide: 1,
+          arrows: false,
+          rows: 1,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 1,
           arrows: false,
           rows: 1,

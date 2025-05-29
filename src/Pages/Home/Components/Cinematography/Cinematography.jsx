@@ -11,17 +11,17 @@ const Cinematography = () => {
             <img
               src="assets/img/camera1.jpg"
               alt="img"
-              className="h-[100%] mx-auto lg:mx-0 w-[92%] lg:w-[100%] hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049]"
+              className="h-[100%]  sm:mx-auto lg:mx-0 w-[80vw] sm:w-[92%] lg:w-[100%] hover:rounded-3xl hover:shadow-[0px_8px_25px_8px] shadow-[#373049]"
             />
 
-            <div className=" text-center lg:text-left p-[30px] md:p-0 lg:ml-[-40px] xl:ml-0">
+            <div className=" text-center lg:text-left p-[20px] md:p-[30px] lg:ml-[-40px] xl:ml-0">
               <p className="text-[#FF5E3A] font-bold font-roboto text-[14px]">
                 ------ Our Cinematography
               </p>
-              <h4 className="font-bold text-5xl md:text-[72px] text-[#FFFFFF] font-roboto mt-2.5 leading-[65px] ">
+              <h4 className="font-bold text-[32px] sm:text-[40px] md:text-[72px] text-[#FFFFFF] font-roboto mt-2.5 leading-[50px] md:leading-[80px]">
                 Cinematography and Film Production
               </h4>
-              <h3 className="font-roboto text-[24px] font-bold mt-[30px] mb-[30px] text-[#82869A]">
+              <h3 className="font-roboto text-[20px] md:text-[24px] font-bold mt-[30px] mb-[30px] text-[#82869A]">
                 Our video production company is here to help you create stunning
                 images from start to finish.
               </h3>

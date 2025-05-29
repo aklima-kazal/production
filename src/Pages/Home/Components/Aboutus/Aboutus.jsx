@@ -57,7 +57,7 @@ const Aboutus = () => {
                   ------ About Us
                 </p>
 
-                <h4 className="font-bold text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
+                <h4 className="font-bold md:text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
                   We Are a Team of Passionate Filmmakers
                 </h4>
                 <h4 className="text-[#82869A] font-bold font-roboto text-2xl lg:w-[80%]">
@@ -107,7 +107,7 @@ const Aboutus = () => {
                   ------ About Us
                 </p>
 
-                <h4 className="font-bold text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
+                <h4 className="font-bold text-[45px] md:text-7xl text-[#FFFFFF] font-roboto mt-2.5 mb-8 w-[102%] lg:w-[80%] text-center items-center justify-center lg:items-left lg:text-left">
                   We Are a Team of Passionate Filmmakers
                 </h4>
                 <h4 className="text-[#82869A] font-bold font-roboto text-2xl lg:w-[80%]">

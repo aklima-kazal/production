@@ -36,7 +36,16 @@ const Testimonial = () => {
         },
       },
       {
-        breakpoint: 575,
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 320,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -59,7 +68,7 @@ const Testimonial = () => {
               key={index}
             />
           ))}
-          <div className=" lg:top-[216px] w-[83%] md:w-[92%] lg:w-[900px]  left-0 bottom-0 absolute z-50 lg:mt-[40px] mx-[20px] ">
+          <div className=" lg:top-[216px] w-[90vw] sm:w-[80%] md:w-[90%] lg:w-[900px]  left-0 bottom-0 absolute  lg:mt-[40px] mx-[20px] z-50">
             <Slider {...settings}>
               {Testimonicardsdata?.map((item, index) => (
                 <div className=" bg-white justify-between border border-[#f82626] shadow-[0px_8px_25px_8px] p-[30px] rounded-[5px] ">
@@ -80,7 +89,7 @@ const Testimonial = () => {
           <div className="mt-8 lg:mt-3 mx-[45px]">
             <img
               src="assets/img/film7.jpg"
-              className="w-[100%] h-[100%] lg:w-[100%] lg:h-[588px] object-cover overflow-hidden rounded-[5px] shadow-[0px_8px_25px_8px] opacity-70"
+              className="w-[100%] h-[200vw] sm:h-[100%] sm:w-[100%] lg:h-[588px] object-cover overflow-hidden rounded-[5px] shadow-[0px_8px_25px_8px] opacity-70"
               alt="img"
             />
           </div>

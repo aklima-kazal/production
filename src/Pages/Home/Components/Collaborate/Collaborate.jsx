@@ -9,7 +9,7 @@ const Collaborate = () => {
         <span className="text-[#ffffffff] font-bold font-roboto text-[14px]">
           ------COLLABORATING
         </span>
-        <h4 className="font-bold text-5xl lg:text-[72px] w-[100%] lg:w-[60%] mb-[30px] text-[#FFFFFF] font-roboto mt-2.5 lg:leading-[72px]">
+        <h4 className="font-bold text-4xl lg:text-[72px] w-[100%] lg:w-[60%] mb-[30px] text-[#FFFFFF] font-roboto mt-2.5 lg:leading-[72px]">
           We Love Collaborating With Other Creatives
         </h4>
         <div className="">

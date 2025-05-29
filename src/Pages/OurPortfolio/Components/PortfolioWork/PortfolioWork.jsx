@@ -67,8 +67,8 @@ const PortfolioWork = () => {
                   </div>
                 ))}
               </div>
-              <Pagination className="mt-[50px] mx-2 lg:mx-[30%]">
-                <PaginationContent className=" gap-8">
+              <Pagination className="mt-[50px] mx-[-2px] md:mx-2 lg:mx-[30%]">
+                <PaginationContent className=" gap-2 md:gap-8">
                   <PaginationItem
                     className="justify-end bg-amber-50 p-[15px_20px] text-black rounded-md"
                     href="#"

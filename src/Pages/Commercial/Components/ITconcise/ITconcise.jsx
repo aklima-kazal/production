@@ -11,14 +11,14 @@ const ITconcise = () => {
             <span className="text-[#FF5E3A] font-bold font-roboto text-[14px] uppercase">
               ------Keep it concise
             </span>
-            <h4 className="font-bold text-6xl md:text-[72px] text-[#FFFFFF] font-roboto mb-[30px] leading-[72px]">
+            <h4 className="font-bold text-[55px] md:text-[72px] text-[#FFFFFF] font-roboto mb-[30px] leading-[60px] md:leading-[72px]">
               TV Commercials are Typically Short, so it's Important
             </h4>
-            <span className="text-[#82869A] font-bold font-roboto text-[24px] mb-[30px] mt-[30px]">
+            <span className="text-[#82869A] font-bold font-roboto text-[18px] sm:text-[24px] mb-[30px] mt-[30px]">
               Focus on the most importan t details about your portfolio and
               convey them in a clear and straightforward manner.
             </span>
-            <p className="text-[#82869A] font-normal mt-[30px] font-inter text-[16px]">
+            <p className="text-[#82869A] font-normal mt-[30px] font-inter text-[14px] sm:text-[16px]">
               Proin et magna blandit arcu pellentesque scelerisque sit amet a
               sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis
               dui. Integer consequat consectetur est id blandit. Proin et magna

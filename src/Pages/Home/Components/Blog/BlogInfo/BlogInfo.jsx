@@ -10,7 +10,7 @@ const BlogInfo = ({ title, heading, description, button, src }) => {
           <span className="text-[#FF5E3A] font-bold font-roboto text-[14px] ">
             {title}
           </span>
-          <h4 className="font-bold text-[72px] mb-[30px] lg:w-[60%] text-[#FFFFFF] font-roboto leading-[72px]">
+          <h4 className="font-bold md:text-[72px] text-[40px] mb-[30px] lg:w-[60%] text-[#FFFFFF] font-roboto leading-[72px]">
             {heading}
           </h4>
           <p className="text-[#82869A] mb-[30px] font-normal font-inter text-[16px] w-[96%] lg:w-[77%]">

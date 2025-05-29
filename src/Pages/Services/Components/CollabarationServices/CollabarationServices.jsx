@@ -5,12 +5,12 @@ import React from "react";
 const CollabarationServices = () => {
   return (
     <>
-      <Container className="mt-[100px]s">
-        <div className="bg-radial-[at_10%_25%] from-slate-900 to-slate-500 to-75% pt-[40px] lg:pt-[80px] pl-[50px] pb-[40px] lg:pb-[82px] rounded-[5px] mb-[100px] shadow-[0px_8px_25px_8px] shadow-[#201b2c] w-[90%] lg:w-[100%] mx-auto">
+      <Container className="mt-[100px]">
+        <div className="bg-radial-[at_10%_25%] from-slate-900 to-slate-500 to-75% pt-[40px] lg:pt-[80px] pl-[20px] md:pl-[50px] pb-[40px] lg:pb-[82px] rounded-[5px] mb-[100px] shadow-[0px_8px_25px_8px] shadow-[#201b2c] w-[90%] lg:w-[100%] mx-auto">
           <span className="text-[#ffffffff] font-bold font-roboto text-[14px]">
             ------COLLABORATING
           </span>
-          <h4 className="font-bold text-5xl lg:text-[72px] w-[100%] lg:w-[60%] mb-[30px] text-[#FFFFFF] font-roboto mt-2.5 lg:leading-[72px]">
+          <h4 className="font-bold text-[25px] sm:text-5xl lg:text-[72px] w-[90%] sm:w-[100%] md:w-[70%] lg:w-[60%] mb-[30px] text-[#FFFFFF] font-roboto mt-2.5 lg:leading-[72px]">
             We Love Collaborating With Other Creatives
           </h4>
           <div className="">
